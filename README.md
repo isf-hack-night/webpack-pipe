@@ -6,7 +6,7 @@ Working within WordPress can be slow and frustrating, alongside awkward (or no) 
 
 # How do I use it?
 - First, obviously, pull down the repo
-- `npm install`
+- Then, run `npm install`
 - To start the server:
 - `npm run watch`
 - This will make all JS imported to `index.js` accessible at (by default) `https://localhost:9000/dist/bundle.js`
