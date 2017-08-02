@@ -6,18 +6,18 @@ Working within WordPress can be slow and frustrating, alongside awkward (or no) 
 
 # How do I use it?
 - First, obviously, pull down the repo
-`npm install`
-- Start the server:
-`npm run watch`
+- `npm install`
+- To start the server:
+- `npm run watch`
 - This will make all JS imported to `index.js` accessible at (by default) `https://localhost:9000/dist/bundle.js`
 - To surface the bundle onto a page (using Chrome), first download [Custom JavaScript Chrome Extension](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en)
 - Navigate to the page you want to inject the bundle to and:
-- Click the icon (rightmost icon with the letters CJS)
+- Click the extension icon (icon with the letters 'CJS')
 - Select `your own external scripts`
 - In the popup, delete the 2nd commented out line, replace it with `https://localhost:9000/dist/bundle.js`
 - Click out of the popup to close it, click the save button
 - The page should reload, and the bundle code should run on the page. You should see different colors and a log statement in the console
-- Now, as you change the JS/CSS, the server will automatically update, and the page will refresh and reflect those changes
+- Now, as you change the JS/CSS and save your work, the server will automatically update the bundle, and the page will refresh and reflect those changes
 
 _NOTE:_ You don't have to limit yourself to just JS and CSS. You can also use [ES6](http://es6-features.org/) or [LESS](http://lesscss.org/) syntax, if you prefer.
 
