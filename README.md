@@ -14,7 +14,7 @@ Working within WordPress can be slow and frustrating, alongside awkward (or no) 
 - Navigate to the page you want to inject the bundle to and:
 - Click the extension icon (icon with the letters 'CJS')
 - Select `your own external scripts`
-- In the popup, delete the 2nd commented out line, replace it with `https://localhost:9000/dist/bundle.js`
+- In the popup, **delete the 2nd commented out line** and replace it with `https://localhost:9000/dist/bundle.js`
 - Click out of the popup to close it, click the save button
 - The page should reload, and the bundle code should run on the page. You should see different colors and a log statement in the console
 - Now, as you change the JS/CSS and save your work, the server will automatically update the bundle, and the page will refresh and reflect those changes
